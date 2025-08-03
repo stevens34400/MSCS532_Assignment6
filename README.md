@@ -10,7 +10,7 @@
 ## Usage
 1. Run selection algorithms and empirical comparisons:
 ```bash
-python /mnt/data/assignment6/selection_algorithms.py
+python3 selection_algorithms.py
 ```
 
 2. Import and use data structures in your own scripts:
@@ -29,7 +29,7 @@ print(queue.dequeue())
 ```
 
 ## Empirical Analysis
-The `empirical_compare` function in `selection_algorithms.py` runs simple timing comparisons for different distributions. Modify sizes/trials as needed.
+The `empirical_compare` function in `selection_algorithms.py` runs simple timing comparisons for different distributions. Modify sizes/trials as needed. It dumps into a txt file for ease of reference.
 
 ## Requirements
 - Python 3.8+
